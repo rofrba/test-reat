@@ -1,0 +1,8 @@
+spec:
+    triggers: []
+    output:
+      to:
+        kind: DockerImage
+        name: quay-enterprise-quay-quay-enterprise.apps.ocp01.int.cvattv.com.ar/prod/${APP_NAME}:latest
+      pushSecret:
+        name: quay
