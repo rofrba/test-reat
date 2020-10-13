@@ -1,5 +1,5 @@
 runCIPipelineQuay(application: "test-react",
-              project: "test-push-quay-prod",
+              project: "test-push-quay",
               agent: "nodejs",
               compileCommands: " npm install && npm run build",
               testCommands: "",
